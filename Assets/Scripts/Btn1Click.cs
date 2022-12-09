@@ -31,7 +31,7 @@ public class Btn1Click : MonoBehaviour
 
     private void tweenAction()
     {
-        cube1.DOMove(new Vector3(cube2Pos.x + 3, cube2Pos.y + 3, 0), timeMoveCube1).SetEase(Ease.InOutSine).OnComplete(() => {
+        cube1.DOMove(new Vector3(cube2Pos.x + 3, cube2Pos.y, 0), timeMoveCube1).SetEase(Ease.InOutSine).OnComplete(() => {
             cube1.DOMove(new Vector3(cube2Pos.x, cube2Pos.y, 0), 2).SetEase(Ease.InOutSine).OnComplete(() => {
                 cube2.DOScale(cube2Scale * 2, timeScaleCube2).SetEase(Ease.InOutSine).OnComplete(() => {
                     cube2.DOScale(cube2Scale, 2).SetEase(Ease.InOutSine).OnComplete(() => {

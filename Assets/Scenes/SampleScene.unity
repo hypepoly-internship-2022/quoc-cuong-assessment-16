@@ -671,8 +671,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cube1: {fileID: 1818756892}
   cube2: {fileID: 1733624302}
-  timeMoveCube1: 3
-  timeScaleCube2: 3
+  timeMoveCube1: 4
+  timeScaleCube2: 4
   button2: {fileID: 712731474}
 --- !u!1 &1681177852
 GameObject:
